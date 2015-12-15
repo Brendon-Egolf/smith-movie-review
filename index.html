@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mr. & Mrs. Smith Review</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
-    <article>
-      <header>
-        <h1 id="title">Mr. <span id="red">&</span> Mrs. Smith</h1>
-        <div id="date">1 <sup>st</sup> November, 2013</div>
-        <div id="author">Review by Dudley Storey</div>
-      </header>
-      <div id="review">
+    <article class="row">
+      <img class="small-2 columns" src="img/jolie.png">
+      <img class="small-2 columns right" src="img/pitt.png">
+      <div class="small-8 columns" id="review">
+        <header>
+          <h1 id="title">Mr. <span id="red">&</span> Mrs. Smith</h1>
+          <div id="date">1 <sup>st</sup> November, 2013</div>
+          <div id="author">Review by Dudley Storey</div>
+        </header>
+
         <p>
           While perhaps best remembered as the movie in which Angelina Jolie and Brad Pitt became star-crossed lovers,
           <cite>Mr. & Mrs. Smith</cite> deserves more attention than your typical A-list action movie. In particular,
@@ -65,15 +71,41 @@
           attacks. Their destruction comes almost gleeful – you can see them actually <cite>enjoying</cite> themselves
           in competition with each other – and ultimately frees them from the web of lies they have spun.
         </p>
+        <img class="center" src="img/gunfight-in-the-department-store.jpg">
         <p>
           Having failed in eliminating their rival, the previously inimical companies contracting John and Jane
           temporarily put aside their differences to end the problem of the Smiths, driving them closer together in
           survival instinct. The last third of the movie is the fight of John and Jane against the joined forces of
-          their companies, culminating in a final showdown reminiscent of the climax in <a href="">Butch Cassidy and the
-          Sundance Kid</a>.
+          their companies, culminating in a final showdown reminiscent of the climax in
+          <a href="http://www.imdb.com/title/tt0064115/">Butch Cassidy and the Sundance Kid</a>.
+        </p>
+        <h2>
+          Conclusion
+        </h2>
+        <p>
+          While it is not without its faults (in particular Vincent Vaughn’s misogynistic, eternally frustrated
+          character has become all too familiar in too many movies), <cite>Mr. & Mrs. Smith</cite> also has a
+          significant share of charm. The chemistry between Pitt and Jolie is natural and unfeigned, and the film mixes
+          great action sequences with a barded critique of modern suburban life, and it remains, on the whole, one of my
+          favorite films.
+        </p>
+        <div id="rating">
+          Rating:
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </div>
+        <p>
+          <sup>*</sup>Sadly, the rest of the film was not shot chronologically: I was feel that doing so imparts an extra
+          emotional verisimilitude to an actor’s performance, as they can express the emotional arc of their character in
+          the same sequence that the audience experiences it.
         </p>
       </div>
+
     </article>
+
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
